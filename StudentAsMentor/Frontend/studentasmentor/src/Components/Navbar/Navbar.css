@@ -1,0 +1,119 @@
+/* Navbar Styles */
+body{
+  background-color: blue;
+}
+nav {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.max-w-screen-xl {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Logo and Title Styles */
+.flex.space-x-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 0.75rem;
+}
+
+img.h-8 {
+  height: 2rem;
+}
+
+span.text-2xl {
+  font-size: 1.25rem;
+}
+
+/* Search Bar Styles */
+.relative.hidden.md\\:block {
+  position: relative;
+}
+
+/* Navigation Links Styles */
+ul.flex.items-center.space-x-4.md\\:hidden {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul.flex.items-center.space-x-4.hidden.md\\:flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.relative.group {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.menu-item.absolute.hidden.mt-2.space-y-2.bg-white.border.rounded-lg {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+}
+
+.menu-item.absolute.hidden.mt-2.space-y-2.bg-white.border.rounded-lg ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item.absolute.hidden.mt-2.space-y-2.bg-white.border.rounded-lg li {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.menu-item.absolute.hidden.mt-2.space-y-2.bg-white.border.rounded-lg li:hover {
+  background-color: #f0f0f0;
+}
+
+/* Profile Button Styles */
+button.flex.text-sm.bg-gray-800.rounded-full.focus\\:ring-4.focus\\:ring-gray-300 {
+  display: flex;
+  font-size: 0.875rem;
+  background-color: #333;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+button.flex.text-sm.bg-gray-800.rounded-full.focus\\:ring-4.focus\\:ring-gray-300 img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+  .relative.hidden.md\\:block {
+    display: block;
+  }
+
+  ul.flex.items-center.space-x-4.md\\:hidden {
+    display: none;
+  }
+
+  ul.flex.items-center.space-x-4.hidden.md\\:flex {
+    display: flex;
+  }
+}
+
+/* Responsive Navigation Icons */
+.menu-item.absolute.hidden.mt-2.space-y-2.bg-white.border.rounded-lg li svg {
+  margin-right: 0.5rem;
+}
+
+/* Example Icons (Replace with Your Own Icons) */
+.menu-item.absolute.hidden.mt-2.space-y-2.bg-white.border.rounded-lg li svg {
+  color: #555;
+}
